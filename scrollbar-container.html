@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .table-container {
+    width: 50%;
+    overflow-x: auto; /* เพิ่ม scrollbar ในแนวนอน */
+  }
+
+  table {
+    width: 120%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>หัวข้อ 1</th>
+        <th>หัวข้อ 2</th>
+        <!-- เพิ่มคอลัมน์ต่อไปตามลำดับ -->
+        <th>หัวข้อ 3</th>
+        <th>หัวข้อ 4</th>
+        <!-- เพิ่มคอลัมน์ต่อไปตามลำดับ -->
+        <!-- ... คอลัมน์ที่ 5 - 28 -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
