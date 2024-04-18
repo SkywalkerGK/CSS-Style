@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบ่งคอลัมด้วย CSS Flexbox</title>
+    <style>
+        /* ใช้ flex container เพื่อแบ่งคอลัม */
+        .container {
+            display: flex;
+        }
+
+        /* สร้างคอลัมที่ 1 */
+        .column1 {
+            flex: 1; /* คอลัมนี้จะเต็มพื้นที่ทั้งหมดของ flex container */
+            background-color: #3498db;
+            padding: 20px;
+        }
+
+        /* สร้างคอลัมที่ 2 */
+        .column2 {
+            flex: 1; /* คอลัมนี้จะเต็มพื้นที่ทั้งหมดของ flex container */
+            background-color: #2ecc71;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ใช้ div เพื่อแทนคอลัม -->
+    <div class="container">
+        <div class="column1">
+            <!-- เนื้อหาของคอลัมที่ 1 -->
+            <h2>คอลัมที่ 1</h2>
+            <p>เนื้อหาคอลัมที่ 1 อยู่ที่นี่</p>
+        </div>
+        <div class="column2">
+            <!-- เนื้อหาของคอลัมที่ 2 -->
+            <h2>คอลัมที่ 2</h2>
+            <p>เนื้อหาคอลัมที่ 2 อยู่ที่นี่</p>
+        </div>
+    </div>
+
+</body>
+</html>
